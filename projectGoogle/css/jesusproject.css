@@ -1,0 +1,174 @@
+/* homepage */
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Cousine', monospace;
+   }
+
+body,
+html {
+    height: 100%;
+}
+
+
+.navbar {
+    background: #7a78b3
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+    padding-left: 1em;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: rgba(159, 137, 158, 0.79);
+    color: #ffffff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.fixed-top .bg-dark {
+    background-color: #3d3440 !important
+}
+
+.bg-primary {
+    background-color: #c97af1 !important
+}
+
+.header {
+    background-image: url('/images/homepage.JPG');
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(159, 137, 158, 0.79);
+}
+
+.description {
+    position:relative;
+    top: 30%;
+    margin: auto;
+    padding: 5em;
+}
+
+
+.description h1 {
+    color: #fff;
+}
+
+.description p {
+    color: rgb(106, 83, 83);
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+    background-color: white;
+    padding: 1em;
+}
+
+.description button {
+    border: 1px solid #7a78b3;
+    background: #7a78b3;
+    color: #fff;
+}
+
+/* about me */
+
+#random {
+    border: 1px solid #7a78b3;
+    background: #7a78b3;
+    color: #fff;
+    margin: 4em 0;
+}
+
+.random {
+    padding-left: 20em;
+}
+
+.about {
+    padding: 1em;
+    position: relative;
+}
+
+.about h1{
+    color:#9d8398;
+    margin: 2em;
+    font-size: 85px;
+   }
+
+
+.about img {
+    height: 60%;
+    width: 80%;
+    border-radius: 10%
+    
+    
+}
+
+.about span {
+    display: block;
+    color: rgb(106, 83, 83);
+    position: absolute;
+    left: 90px;
+    padding-top: 1em;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #9d8398;
+}
+
+.about .desc h3 {
+    color: rgb(106, 83, 83);
+}
+
+.about .desc p {
+    line-height: 2;
+    color: rgb(106, 83, 83);
+}
+
+/* Contact */
+
+#contact h1 {
+    color:#9d8398;
+    margin: 2em;
+    font-size: 85px;
+}
+
+#icon {
+    width: auto;
+    height: 10vw;
+    object-fit: cover;
+    padding: 1em;
+}
+
+.row {
+    text-align: center;
+    margin: auto;
+}
+
+h5 {
+    padding-bottom: 1em;
+    color: rgb(106, 83, 83);
+}
+
+
+
+
